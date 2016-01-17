@@ -21,7 +21,7 @@ public class Main
 		new Main(zipcode).start();
 	}
 
-	private tring zip; // Deliberately break the build
+	private String zip; 
 
 	private String jak;
 	public Main(String zip)
