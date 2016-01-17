@@ -23,6 +23,7 @@ public class Main
 
 	private String zip;
 
+	private String jak;
 	public Main(String zip)
 	{
 		this.zip=zip;
