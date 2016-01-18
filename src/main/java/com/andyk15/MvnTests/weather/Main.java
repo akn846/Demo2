@@ -12,12 +12,13 @@ public class Main
 		// Setup log4J cofig
 		PropertyConfigurator.configure(Main.class.getClassLoader().getResource("log4j.properties"));
 		// Defime defai;t ZIP code
-		String zipcode="60202";
+		String zipcode = "60202";
 		try
 		{
-			zipcode=args[0];
+			zipcode = args[0];
 
-		} catch (Exception e){ 
+		} catch (Exception e) 
+			{ 
 				System.out.println("Using default ZIP code of 60202 ");
 			}
 
@@ -28,7 +29,7 @@ public class Main
 
 	public Main(String zip)
 	{
-		this.zip=zip;
+		this.zip = zip;
 	}
 
 	public void start() throws Exception
