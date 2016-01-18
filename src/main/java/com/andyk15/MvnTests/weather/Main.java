@@ -16,14 +16,16 @@ public class Main
 		try
 		{
 			zipcode=args[0];
-		} catch (Exception e){ 	}
+
+		} catch (Exception e){ 
+				System.out.println("Using default ZIP code of 60202 ");
+			}
 
 		new Main(zipcode).start();
 	}
 
 	private String zip; 
 
-	private String jak;
 	public Main(String zip)
 	{
 		this.zip=zip;
