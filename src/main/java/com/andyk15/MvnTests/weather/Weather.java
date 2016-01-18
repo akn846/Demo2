@@ -19,7 +19,7 @@ public class Weather
 		return city;
 	}
 
-	public void setCity(String city)
+	public void setCity(final String city)
 	{
 		this.city=city;
 	}
@@ -29,7 +29,7 @@ public class Weather
 		return region;
 	}
 
-	public void setRegion(String region)
+	public void setRegion(final String region)
 	{	
 		this.region=region;
 	}
@@ -39,7 +39,7 @@ public class Weather
 		return country;
 	}
 
-	public void setCountry(String country)
+	public void setCountry(final String country)
 	{
 		this.country=country;
 	}
@@ -49,7 +49,7 @@ public class Weather
 		return condition;
 	}
 
-	public void setCondition(String condition)
+	public void setCondition(final String condition)
 	{
 		this.condition=condition;
 	}
@@ -59,7 +59,7 @@ public class Weather
 		return temp;
 	}
 
-	public void setTemp(String temp)
+	public void setTemp(final String temp)
 	{
 		this.temp=temp;
 	}
@@ -69,7 +69,7 @@ public class Weather
 		return chill;
 	}
 
-	public void setChill(String chill)
+	public void setChill(final String chill)
 	{
 		this.chill=chill;
 	}
@@ -79,7 +79,7 @@ public class Weather
 		return humidity;
 	}
 
-	public void setHumidity(String humidity)
+	public void setHumidity(final String humidity)
 	{
 		this.humidity=humidity;
 	}
